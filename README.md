@@ -1,1 +1,1 @@
-# games-landing-page
+# game-landing-page
