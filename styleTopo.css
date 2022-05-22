@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,73,1) 50%, rgba(40,0,0,1) 100%);
+    color: aliceblue;
+}
+
+#cabecalho{
+    position: fixed;
+    padding-left: 370px;
+}
+
+#Navegacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 15px;
+}
+
+#Pesquisa{
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 80px;
+    border: solid 1px blue;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: white;
+}
+
+#Plataforma{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 15px;
+    padding-right: 90px;
+}
+
+#IMGCentral{
+    float: right;
+    margin-bottom: 25px;
+}
+
+#compra{
+    background-color: transparent;
+    border: solid 1px blue;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    padding: 20px 50px;
+    top: 450px;
+    left: 1000px;
+}
+
+#compra:hover{
+    margin: 2px;
+    border-color: rgb(255, 136, 0);
+}
+
+#nameCompra{
+    position: absolute;
+    top: 250px;
+    left: 880px;
+    font-size: 50px;
+}
+
+#compra {
+    border-color: #f1c40f;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  #compra:hover {
+    background-position: 0;
+  }

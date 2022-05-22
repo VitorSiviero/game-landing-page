@@ -1,0 +1,12 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+#lista1, #lista2{
+    list-style-type: none;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+}

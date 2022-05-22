@@ -1,0 +1,50 @@
+#text{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+#text1{
+    font-size: 30px;
+    padding-left: 200px;
+}
+
+#text2{
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.assinatura{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin-top: 90px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pc{
+height: 200px;
+padding-top: 25px;
+}
+
+#botaoAssinar{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+#botaoAssinar {
+    border-color: rgb(255, 136, 0);
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(255, 136, 0) inset, 0 0 0 0 rgb(255, 136, 0);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  #botaoAssinar:hover {
+    box-shadow: 0 0 10px 0 rgb(255, 136, 0) inset, 0 0 10px 4px rgb(255, 136, 0);
+  }

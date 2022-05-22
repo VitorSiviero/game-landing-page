@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleTopo.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="assinatura.css">
+    <link rel="stylesheet" href="rodape.css">
+    <title>Games</title>
+</head>
+<body>  
+    <section id="TopoPag">
+    <div id="IMGCentral">
+        <img src="/img/thumb-1920-1020330.png" alt="imgPrincipal" height="660px">
+    </div>
+    <div id="dados">
+        <button id="compra">COMPRAR</button>
+        <h3 id="nameCompra">STAR WARS JEDI Fallen Order</h3>
+    </div>
+    <header id="cabecalho">
+        <div id="Navegacao">
+            <a>Vitor ⚡ Games</a>
+            <input id="Pesquisa" type="text" name="search" placeholder="Buscar Jogos">
+            <a>Login/Cadastro</a>
+            <img src="/img/carrinho.png" alt="carrinho de compra"
+            height="20px">
+        </div>
+        <div id="disp">
+            <ul id="Plataforma">
+                <li>PS3</li>
+                <li>PS4</li>
+                <li>XBOX ONE</li>
+                <li>XBOX 360</li>
+                <li>PC</li>
+                <li>SWITCH</li>
+            </ul>
+        </div>
+    </header>
+    </section>    
+    
+    <section id="Jogos">
+        <h3 id="tituloExplorar">EXPLORAR MAIS JOGOS</h3>
+
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+      
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="IMGS/01.png" alt="">
+                  </div>
+                </div>
+              </div>
+  
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="IMGS/02.png" alt="">
+                  </div>
+                </div>
+              </div>
+  
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="IMGS/03.png" alt="">
+                  </div>
+                </div>
+              </div>
+  
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="IMGS/04.png" alt="">
+                  </div>  
+                </div>
+              </div>
+  
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="IMGS/05.png" alt="">
+                  </div>      
+                </div>
+              </div>
+  
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="IMGS/06.png" alt="">
+                  </div>               
+                </div>
+              </div>
+  
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="IMGS/07.png" alt="">
+                  </div>               
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="IMGS/08.png" alt="">
+                  </div>               
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="IMGS/09.png" alt="">
+                  </div>               
+                </div>
+              </div>
+
+            </div>
+          </div>
+      
+          <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        <button id="verJogos">VER TODOS OS JOGOS</button>
+    </section>
+
+    <section class="assinatura">
+        <img src="img/pc.png" alt="pc" id="pc">
+        <div id="text">
+            <h2 id="text1">Vitor ⚡ Games Connect</h2>
+            <h1 id="text2">Venha fazer parte da comuninade e tenha acesso á uma biblioteca de mais de 100 jogos com 
+                diversos benefícios. Por apenas R$ 19,99/mês.
+            </h1>
+            <a><button id="botaoAssinar">assinar</button></a>
+        </div>
+    </section>
+
+    <section class="rodape">
+        <ul id="lista1">
+            <li>Plataformas</li>
+            <li>PS3</li>
+            <li>PS4</li>
+            <li>XBOX ONE</li>
+            <li>XBOX 360</li>
+            <li>PC</li>
+            <li>SWITCH</li>
+        </ul>
+        <ul id="lista2">
+            <li>Vitor ⚡ Games Connect</li>
+            <li>Suporte</li>
+            <li>Jogos</li>
+        </ul>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 3,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+
+</body>
+</html> 
